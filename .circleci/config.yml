@@ -13,7 +13,7 @@ jobs:
             git config user.email "${GITHUB_EMAIL}"
             git config user.name "${GITHUB_USERNAME}"
             git remote remove origin
-            git remote add origin https://${GITHUB_API_KEY}@github.com/<github-username>/<original-repo-wiki.git> > /dev/null 2>&1
+            git remote add origin https://${GITHUB_API_KEY}@github.com/UsuaOSilver/saigon-marketplace-wiki.git > /dev/null 2>&1
             git push origin master > /dev/null 2>&1
 
 workflows:
